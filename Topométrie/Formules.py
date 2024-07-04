@@ -30,7 +30,7 @@ def gisement(X_A:float,Y_A:float,X_M:float,Y_M:float,arr:int=4):
 
     Sortie
     -------
-    Retourne le gisement (en grades). Présence d'un arrondi, à défaut 
+    Retourne le gisement (en grades). Présence d'un arrondi.
     """
     dist = distance(X_M,Y_M,X_A,Y_A)
     intermediaire = (X_M-X_A)/(dist + Y_M - Y_A)
