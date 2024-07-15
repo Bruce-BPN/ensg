@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" version="1.2" date="2024-06-24" time="10:46:10.47" readOnly="false" language="English">
+<Units>
+<Metric linearUnit="meter" areaUnit="squareMeter" volumeUnit="cubicMeter" angularUnit="grads" latLongAngularUnit="decimal degrees" temperatureUnit="celsius" pressureUnit="milliBars"/>
+</Units>
+<CoordinateSystem name="RGF93 L93 2020 M" horizontalDatum="Local" verticalDatum="Local" ellipsoidName="GRS 1980" projectedCoordinateSystemName="Lambert 93" fileLocation="">
+</CoordinateSystem>
+<Application name="Leica Captivate LandXML Export" manufacturer="Leica Geosystems AG" version="8.30" manufacturerURL="www.leica-geosystems.com">
+<Author company="Leica Geosystems AG" companyURL="www.leica-geosystems.com" timeStamp="2024-06-24T10:46:10.47"/>
+</Application>
+<CgPoints>
+<CgPoint name="PT_test2" oID="PT_test2" role="measured" latitude="43.962890280672816" longitude="5.774138166643012" ellipsoidHeight="651.180120" timeStamp="2024-07-01T14:21:06.75">6322120.423110 922602.126930 600.896193</CgPoint>
+<CgPoint name="PT_test" oID="PT_test" role="measured" latitude="43.962885924490799" longitude="5.774128275519300" ellipsoidHeight="651.397112" timeStamp="2024-07-01T14:20:29.99">6322119.911490 922601.350576 601.113196</CgPoint>
+<CgPoint name="PT_72" oID="PT_72" role="measured" latitude="43.962886502910834" longitude="5.774128834789366" ellipsoidHeight="651.390537" timeStamp="2024-07-01T10:46:54.21">6322119.977298 922601.393177 601.106622</CgPoint>
+<CgPoint name="PT_45" oID="PT_45" role="measured" latitude="43.962886090517834" longitude="5.774128383383300" ellipsoidHeight="651.398949" timeStamp="2024-07-01T10:46:12.15">6322119.930230 922601.358579 601.115034</CgPoint>
+<CgPoint name="PT_30" oID="PT_30" role="measured" latitude="43.962886112468503" longitude="5.774128400943188" ellipsoidHeight="651.393935" timeStamp="2024-07-01T10:45:18.39">6322119.932717 922601.359902 601.110020</CgPoint>
+<CgPoint name="PT_20" oID="PT_20" role="measured" latitude="43.962885651587385" longitude="5.774128168525330" ellipsoidHeight="651.398802" timeStamp="2024-07-01T10:44:22.68">6322119.880883 922601.343059 601.114886</CgPoint>
+<CgPoint name="PT_10" oID="PT_10" role="measured" latitude="43.962884801812557" longitude="5.774128260325096" ellipsoidHeight="651.392282" timeStamp="2024-07-01T10:43:27.76">6322119.786778 922601.353739 601.108374</CgPoint>
+<CgPoint name="PT_0" oID="PT_0" role="measured" latitude="43.962885881168027" longitude="5.774128291477363" ellipsoidHeight="651.397026" timeStamp="2024-07-01T10:42:40.55">6322119.906724 922601.352025 601.113110</CgPoint>
+<CgPoint name="GS0002" oID="GS0002" role="measured" latitude="43.962835717593499" longitude="5.774189161619926" ellipsoidHeight="650.606305" timeStamp="2024-07-01T10:33:22.40">6322114.507856 922606.430139 600.322687</CgPoint>
+<CgPoint name="GS0001" oID="GS0001" role="measured" latitude="43.962887750689958" longitude="5.774148510928780" ellipsoidHeight="651.365079" timeStamp="2024-07-01T10:30:13.04">6322120.171327 922602.966508 601.081175</CgPoint>
+<CgPoint name="RTCM-Ref 0000" oID="RTCM-Ref 0000" latitude="43.960119886086986" longitude="5.780607986673228" ellipsoidHeight="616.373522" timeStamp="2024-07-01T10:30:02.94">6321831.042598 923131.901080 566.108786</CgPoint>
+</CgPoints>
+<Survey>
+<SurveyHeader name="Test_Imu_0"/>
+<Equipment>
+<GPSReceiverDetails id="NA" manufacturer="Leica Geosystems AG"/>
+</Equipment>
+<GPSSetup id="RefStationId-2" antennaHeight="0.000000" stationName="RTCM-Ref 0000">
+<GPSPosition pntRef="RTCM-Ref 0000" wgsLatitude="43.960119886086986" wgsLongitude="5.780607986673228" wgsHeight="616.373522">
+<TargetPoint name="RTCM-Ref 0000" pntRef="RTCM-Ref 0000" >6321831.042598 923131.901080 566.108786</TargetPoint>
+</GPSPosition>
+</GPSSetup>
+</Survey>
+<Survey>
+<SurveyHeader name="Test_Imu_1"/>
+<Equipment>
+<GPSReceiverDetails id="GPS_1" manufacturer="Leica Geosystems AG" model="CS30" serialNumber="Default string"/>
+</Equipment>
+<GPSSetup id="GPSSetupID_4" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0001">
+<GPSPosition pntRef="GS0001" wgsLatitude="43.962887750689958" wgsLongitude="5.774148510928780" wgsHeight="651.365079">
+<TargetPoint name="GS0001" pntRef="GS0001" >6322120.171327 922602.966508 601.081175</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0001292517" covarianceXY="0.0000429618" covarianceXZ="-0.0000062342" covarianceYY="0.0000732804" covarianceYZ="0.0000377188" covarianceZZ="0.0002817218" RMS="1.000000" startTime="1403857827" stopTime="1403857830"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_6" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0002">
+<GPSPosition pntRef="GS0002" wgsLatitude="43.962835717593499" wgsLongitude="5.774189161619926" wgsHeight="650.606305">
+<TargetPoint name="GS0002" pntRef="GS0002" >6322114.507856 922606.430139 600.322687</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000578185" covarianceXY="0.0000011562" covarianceXZ="0.0000187126" covarianceYY="0.0000491108" covarianceYZ="0.0000486493" covarianceZZ="0.0002984590" RMS="1.000000" startTime="1403858017" stopTime="1403858020"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_20" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_0">
+<GPSPosition pntRef="PT_0" wgsLatitude="43.962885881168027" wgsLongitude="5.774128291477363" wgsHeight="651.397026">
+<TargetPoint name="PT_0" pntRef="PT_0" >6322119.906724 922601.352025 601.113110</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000567900" covarianceXY="-0.0000046418" covarianceXZ="-0.0000102844" covarianceYY="0.0000397106" covarianceYZ="0.0000278124" covarianceZZ="0.0002294355" RMS="1.000000" startTime="1403858575" stopTime="1403858578"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_22" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_10">
+<GPSPosition pntRef="PT_10" wgsLatitude="43.962884801812557" wgsLongitude="5.774128260325096" wgsHeight="651.392282">
+<TargetPoint name="PT_10" pntRef="PT_10" >6322119.786778 922601.353739 601.108374</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000870727" covarianceXY="-0.0000080267" covarianceXZ="-0.0000123087" covarianceYY="0.0000356033" covarianceYZ="0.0000145414" covarianceZZ="0.0001750342" RMS="1.000000" startTime="1403858622" stopTime="1403858625"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_24" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_20">
+<GPSPosition pntRef="PT_20" wgsLatitude="43.962885651587385" wgsLongitude="5.774128168525330" wgsHeight="651.398802">
+<TargetPoint name="PT_20" pntRef="PT_20" >6322119.880883 922601.343059 601.114886</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0001289232" covarianceXY="0.0000178563" covarianceXZ="-0.0000069253" covarianceYY="0.0000313799" covarianceYZ="0.0000103648" covarianceZZ="0.0001246603" RMS="1.000000" startTime="1403858677" stopTime="1403858680"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_26" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_30">
+<GPSPosition pntRef="PT_30" wgsLatitude="43.962886112468503" wgsLongitude="5.774128400943188" wgsHeight="651.393935">
+<TargetPoint name="PT_30" pntRef="PT_30" >6322119.932717 922601.359902 601.110020</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0001973962" covarianceXY="0.0000846609" covarianceXZ="-0.0000254681" covarianceYY="0.0000918153" covarianceYZ="0.0000371950" covarianceZZ="0.0002393729" RMS="1.000000" startTime="1403858733" stopTime="1403858736"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_28" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_45">
+<GPSPosition pntRef="PT_45" wgsLatitude="43.962886090517834" wgsLongitude="5.774128383383300" wgsHeight="651.398949">
+<TargetPoint name="PT_45" pntRef="PT_45" >6322119.930230 922601.358579 601.115034</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0003992009" covarianceXY="0.0000616534" covarianceXZ="-0.0000129409" covarianceYY="0.0000472387" covarianceYZ="0.0000305663" covarianceZZ="0.0001761157" RMS="1.000000" startTime="1403858787" stopTime="1403858790"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_30" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_72">
+<GPSPosition pntRef="PT_72" wgsLatitude="43.962886502910834" wgsLongitude="5.774128834789366" wgsHeight="651.390537">
+<TargetPoint name="PT_72" pntRef="PT_72" >6322119.977298 922601.393177 601.106622</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0004892568" covarianceXY="0.0002298162" covarianceXZ="-0.0000398467" covarianceYY="0.0001640818" covarianceYZ="0.0000267774" covarianceZZ="0.0002581661" RMS="1.000000" startTime="1403858829" stopTime="1403858832"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_32" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_test">
+<GPSPosition pntRef="PT_test" wgsLatitude="43.962885924490799" wgsLongitude="5.774128275519300" wgsHeight="651.397112">
+<TargetPoint name="PT_test" pntRef="PT_test" >6322119.911490 922601.350576 601.113196</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0002562205" covarianceXY="-0.0001187725" covarianceXZ="0.0000164383" covarianceYY="0.0000998638" covarianceYZ="-0.0000170651" covarianceZZ="0.0001359150" RMS="1.000000" startTime="1403871644" stopTime="1403871647"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_34" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="PT_test2">
+<GPSPosition pntRef="PT_test2" wgsLatitude="43.962890280672816" wgsLongitude="5.774138166643012" wgsHeight="651.180120">
+<TargetPoint name="PT_test2" pntRef="PT_test2" >6322120.423110 922602.126930 600.896193</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000268502" covarianceXY="0.0000024812" covarianceXZ="0.0000139451" covarianceYY="0.0000142163" covarianceYZ="-0.0000015940" covarianceZZ="0.0000835761" RMS="1.000000" startTime="1403871681" stopTime="1403871684"/>
+</GPSPosition>
+</GPSSetup>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_4" dX="-135.173540" dY="-534.799804" dZ="245.682677">
+<TargetPoint name="GS0001" pntRef="GS0001" >6322120.171327 922602.966508 601.081175</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_6" dX="-132.051691" dY="-531.204678" dZ="240.994068">
+<TargetPoint name="GS0002" pntRef="GS0002" >6322114.507856 922606.430139 600.322687</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_20" dX="-134.843902" dY="-536.397648" dZ="245.555320">
+<TargetPoint name="PT_0" pntRef="PT_0" >6322119.906724 922601.352025 601.113110</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_22" dX="-134.764207" dY="-536.392102" dZ="245.465695">
+<TargetPoint name="PT_10" pntRef="PT_10" >6322119.786778 922601.353739 601.108374</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_24" dX="-134.824017" dY="-536.405556" dZ="245.538190">
+<TargetPoint name="PT_20" pntRef="PT_20" >6322119.880883 922601.343059 601.114886</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_26" dX="-134.864751" dY="-536.390925" dZ="245.571675">
+<TargetPoint name="PT_30" pntRef="PT_30" >6322119.932717 922601.359902 601.110020</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_28" dX="-134.859334" dY="-536.391794" dZ="245.573400">
+<TargetPoint name="PT_45" pntRef="PT_45" >6322119.930230 922601.358579 601.115034</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_30" dX="-134.900654" dY="-536.359556" dZ="245.600546">
+<TargetPoint name="PT_72" pntRef="PT_72" >6322119.977298 922601.393177 601.106622</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_32" dX="-134.847036" dY="-536.399252" dZ="245.558845">
+<TargetPoint name="PT_test" pntRef="PT_test" >6322119.911490 922601.350576 601.113196</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_34" dX="-135.416639" dY="-535.658897" dZ="245.756640">
+<TargetPoint name="PT_test2" pntRef="PT_test2" >6322120.423110 922602.126930 600.896193</TargetPoint>
+</GPSVector>
+</Survey>
+<HexagonLandXML xmlns="http://xml.hexagon.com/schema/HeXML-2.0" xsi:schemaLocation="http://xml.hexagon.com/schema/HeXML-2.0 http://xml.hexagon.com/schema/HeXML-2.0.xsd" xmlns:landxml="http://www.landxml.org/schema/LandXML-1.2" averagingMode="None" averagingMethod="Weighted" averagingPosLimit="0.050000" averagingHgtLimit="0.075000">
+<CoordinateSystem name="RGF93 L93 2020 M" type="classic" residualDistributionKind="no distribution">
+<Ellipsoid name="GRS 1980" SemiMajorAxis="6378137.000000" ReciprocFlattening="298.257222100880028"/>
+<Projection name="Lambert 93">
+<LambertProjectionWithoutScale falseE="700000.000000" falseN="6600000.000000" lambda0="3.000000000000000" phi0="46.500000000000007" phi1="43.999999999999993" phi2="49.000000000000000"/>
+</Projection>
+<GeoidModel name="Raf20" geodeticDatumKind="WGS84" coordinateSystemKind="ellipsoidal"><landxml:DocFileRef name="Raf20.gem" location="-"/>
+</GeoidModel>
+</CoordinateSystem>
+<Point uniqueID="PT_test2" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="13" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.079261" y="462673.345803" z="4405576.653440">
+<CoordinateQuality Qxx="0.000043" Qxy="0.000000" Qxz="0.000029" Qyy="0.000014" Qyz="0.000004" Qzz="0.000068" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962890280672816" lon="5.774138166643012" hghtE="651.180120" hghthO="600.896192">
+<CoordinateQuality Qxx="0.000027" Qxy="0.000002" Qxz="0.000014" Qyy="0.000014" Qyz="-0.000002" Qzz="0.000084" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.079261" y="462673.345803" z="4405576.653440">
+<CoordinateQuality Qxx="0.000043" Qxy="0.000000" Qxz="0.000029" Qyy="0.000014" Qyz="0.000004" Qzz="0.000068" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962890281615508" lon="5.774138166643012" hghtE="651.180170" hghthO="600.896193">
+<CoordinateQuality Qxx="0.000027" Qxy="0.000002" Qxz="0.000014" Qyy="0.000014" Qyz="-0.000002" Qzz="0.000084" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922602.126930" n="6322120.423110" hghtE="651.180170" hghthO="600.896193">
+<CoordinateQuality Qxx="0.000027" Qxy="0.000002" Qxz="0.000014" Qyy="0.000014" Qyz="-0.000002" Qzz="0.000084" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000027" Qxy="0.000002" Qxz="0.000014" Qyy="0.000014" Qyz="-0.000002" Qzz="0.000084" MeanError="1.000000" CQ3D="0.011164" CQPos="0.006408" CQHeight="0.009142"/>
+</Point>
+<Point uniqueID="PT_test" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="12" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.648864" y="462672.605448" z="4405576.455645">
+<CoordinateQuality Qxx="0.000163" Qxy="0.000077" Qxz="-0.000049" Qyy="0.000115" Qyz="-0.000103" Qzz="0.000215" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962885924490799" lon="5.774128275519300" hghtE="651.397112" hghthO="601.113195">
+<CoordinateQuality Qxx="0.000256" Qxy="-0.000119" Qxz="0.000016" Qyy="0.000100" Qyz="-0.000017" Qzz="0.000136" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.648864" y="462672.605448" z="4405576.455645">
+<CoordinateQuality Qxx="0.000163" Qxy="0.000077" Qxz="-0.000049" Qyy="0.000115" Qyz="-0.000103" Qzz="0.000215" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962885925433483" lon="5.774128275519300" hghtE="651.397162" hghthO="601.113196">
+<CoordinateQuality Qxx="0.000256" Qxy="-0.000119" Qxz="0.000016" Qyy="0.000100" Qyz="-0.000017" Qzz="0.000136" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922601.350576" n="6322119.911490" hghtE="651.397162" hghthO="601.113196">
+<CoordinateQuality Qxx="0.000256" Qxy="-0.000119" Qxz="0.000016" Qyy="0.000100" Qyz="-0.000017" Qzz="0.000136" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000256" Qxy="-0.000119" Qxz="0.000016" Qyy="0.000100" Qyz="-0.000017" Qzz="0.000136" MeanError="1.000000" CQ3D="0.022181" CQPos="0.018870" CQHeight="0.011658"/>
+</Point>
+<Point uniqueID="PT_72" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="6" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.595246" y="462672.645144" z="4405576.497346">
+<CoordinateQuality Qxx="0.000435" Qxy="-0.000113" Qxz="-0.000135" Qyy="0.000138" Qyz="0.000171" Qzz="0.000338" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962886502910834" lon="5.774128834789366" hghtE="651.390537" hghthO="601.106621">
+<CoordinateQuality Qxx="0.000489" Qxy="0.000230" Qxz="-0.000040" Qyy="0.000164" Qyz="0.000027" Qzz="0.000258" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.595246" y="462672.645144" z="4405576.497346">
+<CoordinateQuality Qxx="0.000435" Qxy="-0.000113" Qxz="-0.000135" Qyy="0.000138" Qyz="0.000171" Qzz="0.000338" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962886503853518" lon="5.774128834789366" hghtE="651.390588" hghthO="601.106622">
+<CoordinateQuality Qxx="0.000489" Qxy="0.000230" Qxz="-0.000040" Qyy="0.000164" Qyz="0.000027" Qzz="0.000258" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922601.393177" n="6322119.977298" hghtE="651.390588" hghthO="601.106622">
+<CoordinateQuality Qxx="0.000489" Qxy="0.000230" Qxz="-0.000040" Qyy="0.000164" Qyz="0.000027" Qzz="0.000258" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000489" Qxy="0.000230" Qxz="-0.000040" Qyy="0.000164" Qyz="0.000027" Qzz="0.000258" MeanError="1.000000" CQ3D="0.030191" CQPos="0.025560" CQHeight="0.016068"/>
+</Point>
+<Point uniqueID="PT_45" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="6" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.636566" y="462672.612906" z="4405576.470200">
+<CoordinateQuality Qxx="0.000298" Qxy="0.000005" Qxz="-0.000118" Qyy="0.000046" Qyz="0.000054" Qzz="0.000279" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962886090517834" lon="5.774128383383300" hghtE="651.398949" hghthO="601.115033">
+<CoordinateQuality Qxx="0.000399" Qxy="0.000062" Qxz="-0.000013" Qyy="0.000047" Qyz="0.000031" Qzz="0.000176" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.636566" y="462672.612906" z="4405576.470200">
+<CoordinateQuality Qxx="0.000298" Qxy="0.000005" Qxz="-0.000118" Qyy="0.000046" Qyz="0.000054" Qzz="0.000279" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962886091460526" lon="5.774128383383299" hghtE="651.399000" hghthO="601.115034">
+<CoordinateQuality Qxx="0.000399" Qxy="0.000062" Qxz="-0.000013" Qyy="0.000047" Qyz="0.000031" Qzz="0.000176" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922601.358579" n="6322119.930230" hghtE="651.399000" hghthO="601.115034">
+<CoordinateQuality Qxx="0.000399" Qxy="0.000062" Qxz="-0.000013" Qyy="0.000047" Qyz="0.000031" Qzz="0.000176" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000399" Qxy="0.000062" Qxz="-0.000013" Qyy="0.000047" Qyz="0.000031" Qzz="0.000176" MeanError="1.000000" CQ3D="0.024951" CQPos="0.021129" CQHeight="0.013271"/>
+</Point>
+<Point uniqueID="PT_30" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="6" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.631149" y="462672.613775" z="4405576.468475">
+<CoordinateQuality Qxx="0.000249" Qxy="-0.000016" Qxz="0.000011" Qyy="0.000087" Qyz="0.000088" Qzz="0.000192" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962886112468503" lon="5.774128400943188" hghtE="651.393935" hghthO="601.110019">
+<CoordinateQuality Qxx="0.000197" Qxy="0.000085" Qxz="-0.000025" Qyy="0.000092" Qyz="0.000037" Qzz="0.000239" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.631149" y="462672.613775" z="4405576.468475">
+<CoordinateQuality Qxx="0.000249" Qxy="-0.000016" Qxz="0.000011" Qyy="0.000087" Qyz="0.000088" Qzz="0.000192" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962886113411180" lon="5.774128400943188" hghtE="651.393986" hghthO="601.110020">
+<CoordinateQuality Qxx="0.000197" Qxy="0.000085" Qxz="-0.000025" Qyy="0.000092" Qyz="0.000037" Qzz="0.000239" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922601.359902" n="6322119.932717" hghtE="651.393986" hghthO="601.110020">
+<CoordinateQuality Qxx="0.000197" Qxy="0.000085" Qxz="-0.000025" Qyy="0.000092" Qyz="0.000037" Qzz="0.000239" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000197" Qxy="0.000085" Qxz="-0.000025" Qyy="0.000092" Qyz="0.000037" Qzz="0.000239" MeanError="1.000000" CQ3D="0.022991" CQPos="0.017006" CQHeight="0.015472"/>
+</Point>
+<Point uniqueID="PT_20" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="6" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.671883" y="462672.599144" z="4405576.434990">
+<CoordinateQuality Qxx="0.000134" Qxy="0.000005" Qxz="-0.000004" Qyy="0.000031" Qyz="0.000020" Qzz="0.000120" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962885651587385" lon="5.774128168525330" hghtE="651.398802" hghthO="601.114885">
+<CoordinateQuality Qxx="0.000129" Qxy="0.000018" Qxz="-0.000007" Qyy="0.000031" Qyz="0.000010" Qzz="0.000125" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.671883" y="462672.599144" z="4405576.434990">
+<CoordinateQuality Qxx="0.000134" Qxy="0.000005" Qxz="-0.000004" Qyy="0.000031" Qyz="0.000020" Qzz="0.000120" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962885652530069" lon="5.774128168525330" hghtE="651.398852" hghthO="601.114886">
+<CoordinateQuality Qxx="0.000129" Qxy="0.000018" Qxz="-0.000007" Qyy="0.000031" Qyz="0.000010" Qzz="0.000125" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922601.343059" n="6322119.880883" hghtE="651.398852" hghthO="601.114886">
+<CoordinateQuality Qxx="0.000129" Qxy="0.000018" Qxz="-0.000007" Qyy="0.000031" Qyz="0.000010" Qzz="0.000125" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000129" Qxy="0.000018" Qxz="-0.000007" Qyy="0.000031" Qyz="0.000010" Qzz="0.000125" MeanError="1.000000" CQ3D="0.016881" CQPos="0.012661" CQHeight="0.011165"/>
+</Point>
+<Point uniqueID="PT_10" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="6" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.731693" y="462672.612598" z="4405576.362495">
+<CoordinateQuality Qxx="0.000141" Qxy="0.000027" Qxz="0.000043" Qyy="0.000040" Qyz="0.000009" Qzz="0.000117" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962884801812557" lon="5.774128260325096" hghtE="651.392282" hghthO="601.108373">
+<CoordinateQuality Qxx="0.000087" Qxy="-0.000008" Qxz="-0.000012" Qyy="0.000036" Qyz="0.000015" Qzz="0.000175" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.731693" y="462672.612598" z="4405576.362495">
+<CoordinateQuality Qxx="0.000141" Qxy="0.000027" Qxz="0.000043" Qyy="0.000040" Qyz="0.000009" Qzz="0.000117" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962884802755241" lon="5.774128260325096" hghtE="651.392333" hghthO="601.108374">
+<CoordinateQuality Qxx="0.000087" Qxy="-0.000008" Qxz="-0.000012" Qyy="0.000036" Qyz="0.000015" Qzz="0.000175" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922601.353739" n="6322119.786778" hghtE="651.392333" hghthO="601.108374">
+<CoordinateQuality Qxx="0.000087" Qxy="-0.000008" Qxz="-0.000012" Qyy="0.000036" Qyz="0.000015" Qzz="0.000175" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000087" Qxy="-0.000008" Qxz="-0.000012" Qyy="0.000036" Qyz="0.000015" Qzz="0.000175" MeanError="1.000000" CQ3D="0.017254" CQPos="0.011076" CQHeight="0.013230"/>
+</Point>
+<Point uniqueID="PT_0" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="6" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.651998" y="462672.607052" z="4405576.452120">
+<CoordinateQuality Qxx="0.000151" Qxy="0.000034" Qxz="0.000084" Qyy="0.000046" Qyz="0.000025" Qzz="0.000130" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962885881168027" lon="5.774128291477363" hghtE="651.397026" hghthO="601.113109">
+<CoordinateQuality Qxx="0.000057" Qxy="-0.000005" Qxz="-0.000010" Qyy="0.000040" Qyz="0.000028" Qzz="0.000229" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.651998" y="462672.607052" z="4405576.452120">
+<CoordinateQuality Qxx="0.000151" Qxy="0.000034" Qxz="0.000084" Qyy="0.000046" Qyz="0.000025" Qzz="0.000130" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962885882110712" lon="5.774128291477363" hghtE="651.397076" hghthO="601.113110">
+<CoordinateQuality Qxx="0.000057" Qxy="-0.000005" Qxz="-0.000010" Qyy="0.000040" Qyz="0.000028" Qzz="0.000229" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922601.352025" n="6322119.906724" hghtE="651.397076" hghthO="601.113110">
+<CoordinateQuality Qxx="0.000057" Qxy="-0.000005" Qxz="-0.000010" Qyy="0.000040" Qyz="0.000028" Qzz="0.000229" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000057" Qxy="-0.000005" Qxz="-0.000010" Qyy="0.000040" Qyz="0.000028" Qzz="0.000229" MeanError="1.000000" CQ3D="0.018054" CQPos="0.009823" CQHeight="0.015147"/>
+</Point>
+<Point uniqueID="GS0002" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="3" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575478.444209" y="462677.800022" z="4405571.890868">
+<CoordinateQuality Qxx="0.000156" Qxy="0.000045" Qxz="0.000117" Qyy="0.000057" Qyz="0.000047" Qzz="0.000192" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962835717593499" lon="5.774189161619926" hghtE="650.606305" hghthO="600.322686">
+<CoordinateQuality Qxx="0.000058" Qxy="0.000001" Qxz="0.000019" Qyy="0.000049" Qyz="0.000049" Qzz="0.000298" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575478.444209" y="462677.800022" z="4405571.890868">
+<CoordinateQuality Qxx="0.000156" Qxy="0.000045" Qxz="0.000117" Qyy="0.000057" Qyz="0.000047" Qzz="0.000192" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962835718536176" lon="5.774189161619926" hghtE="650.606356" hghthO="600.322687">
+<CoordinateQuality Qxx="0.000058" Qxy="0.000001" Qxz="0.000019" Qyy="0.000049" Qyz="0.000049" Qzz="0.000298" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922606.430139" n="6322114.507856" hghtE="650.606356" hghthO="600.322687">
+<CoordinateQuality Qxx="0.000058" Qxy="0.000001" Qxz="0.000019" Qyy="0.000049" Qyz="0.000049" Qzz="0.000298" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000058" Qxy="0.000001" Qxz="0.000019" Qyy="0.000049" Qyz="0.000049" Qzz="0.000298" MeanError="1.000000" CQ3D="0.020134" CQPos="0.010341" CQHeight="0.017276"/>
+</Point>
+<Point uniqueID="GS0001" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="1" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575475.322360" y="462674.204896" z="4405576.579476">
+<CoordinateQuality Qxx="0.000214" Qxy="0.000012" Qxz="0.000070" Qyy="0.000074" Qyz="0.000064" Qzz="0.000196" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962887750689958" lon="5.774148510928780" hghtE="651.365079" hghthO="601.081174">
+<CoordinateQuality Qxx="0.000129" Qxy="0.000043" Qxz="-0.000006" Qyy="0.000073" Qyz="0.000038" Qzz="0.000282" MeanError="1.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575475.322360" y="462674.204896" z="4405576.579476">
+<CoordinateQuality Qxx="0.000214" Qxy="0.000012" Qxz="0.000070" Qyy="0.000074" Qyz="0.000064" Qzz="0.000196" MeanError="1.000000"/>
+</Cartesian>
+<Geodetic lat="43.962887751632636" lon="5.774148510928780" hghtE="651.365129" hghthO="601.081175">
+<CoordinateQuality Qxx="0.000129" Qxy="0.000043" Qxz="-0.000006" Qyy="0.000073" Qyz="0.000038" Qzz="0.000282" MeanError="1.000000"/>
+</Geodetic>
+<Grid e="922602.966508" n="6322120.171327" hghtE="651.365129" hghthO="601.081175">
+<CoordinateQuality Qxx="0.000129" Qxy="0.000043" Qxz="-0.000006" Qyy="0.000073" Qyz="0.000038" Qzz="0.000282" MeanError="1.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.000129" Qxy="0.000043" Qxz="-0.000006" Qyy="0.000073" Qyz="0.000038" Qzz="0.000282" MeanError="1.000000" CQ3D="0.022006" CQPos="0.014231" CQHeight="0.016785"/>
+</Point>
+<Point uniqueID="RTCM-Ref 0000" class="reference" subclass="positionAndHeight" dataSourceRef="Test_Imu_0001_0616_063524">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="4575610.495900" y="463209.004700" z="4405330.896800">
+<CoordinateQuality Qxx="0.000000" Qxy="0.000000" Qxz="0.000000" Qyy="0.000000" Qyz="0.000000" Qzz="0.000000" MeanError="0.000000"/>
+</Cartesian>
+<Geodetic lat="43.960119886086986" lon="5.780607986673228" hghtE="616.373522" hghthO="566.108786">
+<CoordinateQuality Qxx="0.000000" Qxy="0.000000" Qxz="0.000000" Qyy="0.000000" Qyz="0.000000" Qzz="0.000000" MeanError="0.000000"/>
+</Geodetic>
+</WGS84>
+<Local>
+<Cartesian x="4575610.495900" y="463209.004700" z="4405330.896800">
+<CoordinateQuality Qxx="0.000000" Qxy="0.000000" Qxz="0.000000" Qyy="0.000000" Qyz="0.000000" Qzz="0.000000" MeanError="0.000000"/>
+</Cartesian>
+<Geodetic lat="43.960119887029670" lon="5.780607986673228" hghtE="616.373572" hghthO="566.108786">
+<CoordinateQuality Qxx="0.000000" Qxy="0.000000" Qxz="0.000000" Qyy="0.000000" Qyz="0.000000" Qzz="0.000000" MeanError="0.000000"/>
+</Geodetic>
+<Grid e="923131.901080" n="6321831.042598" hghtE="616.373572" hghthO="566.108786">
+<CoordinateQuality Qxx="0.000000" Qxy="0.000000" Qxz="0.000000" Qyy="0.000000" Qyz="0.000000" Qzz="0.000000" MeanError="0.000000"/>
+</Grid>
+</Local>
+</Coordinates>
+<PointQuality MeanError="0.000000"/>
+</Point>
+<Survey name="Test_Imu_1" SurveyDuration="P0Y0M0DT3H51M4S" dataSourceRef="Test_Imu_0001_0616_063524">
+<GPSSetup uniqueID="GPSSetupID_4">
+<GPSPosition targetPntRef="GS0001" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="2.459675" PDOP="1.431782" VDOP="1.300000" TDOP="2.000000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="7" GALILEOSatTracked="5" GALILEOSatUsed="5" GLONASSSatTracked="7" GLONASSSatUsed="7" BEIDOUSatTracked="8" BEIDOUSatUsed="5"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="0.099725" velocityY="0.055910" velocityZ="0.078466" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00179747" Qxy="-0.00020817" Qxz="-0.00016900" Qyy="0.00098480" Qyz="0.00104803" Qzz="0.00969906" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="13.45190204" tiltQuality="0.12580242" maxTilt="13.45189762" maxTiltQuality="0.12580242" tiltDirection="332.65612469" tiltDirectionQuality="1.27396666" heading="361.73649377" headingQuality="1.10010844">
+<AttitudeQuaternion w="0.948545736588444" x="-0.076951637216519" y="-0.072104842017052" z="0.298563766869457">
+<QuaternionQuality Qxx="0.0000035103" Qxy="0.0000001483" Qxz="-0.0000060208" Qyy="0.0000046222" Qyz="-0.0000059878" Qzz="0.0005298786" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="-13.9835189935" velocityY="4.7503045326" velocityZ="9.6115927991" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000008026" Qxy="0.0000022029" Qxz="0.0000000727" Qyy="0.0000063178" Qyz="0.0000000794" Qzz="0.0000000944" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_6">
+<GPSPosition targetPntRef="GS0002" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.700000" GDOP="2.619160" PDOP="1.565248" VDOP="1.400000" TDOP="2.100000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="7" GALILEOSatTracked="5" GALILEOSatUsed="5" GLONASSSatTracked="6" GLONASSSatUsed="6" BEIDOUSatTracked="9" BEIDOUSatUsed="4"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="-0.001167" velocityY="-0.019643" velocityZ="-0.115112" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00158878" Qxy="-0.00018954" Qxz="-0.00019425" Qyy="0.00104058" Qyz="0.00109007" Qzz="0.00933657" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="0.57325805" tiltQuality="0.11963295" maxTilt="0.95092369" maxTiltQuality="0.12351850" tiltDirection="78.47620656" tiltDirectionQuality="14.11011717" heading="49.97489194" headingQuality="0.57204766">
+<AttitudeQuaternion w="-0.923942588481719" x="0.003004504204985" y="-0.003353214352377" z="0.382504669380244">
+<QuaternionQuality Qxx="0.0000035464" Qxy="0.0000001073" Qxz="0.0000001892" Qyy="0.0000040199" Qyz="-0.0000003514" Qzz="0.0001614870" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="0.3210685363" velocityY="0.2465271966" velocityZ="0.4293289267" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000028" Qxy="-0.0000000008" Qxz="0.0000000000" Qyy="0.0000000033" Qyz="-0.0000000001" Qzz="0.0000000043" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_20">
+<GPSPosition targetPntRef="PT_0" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="2.111871" PDOP="1.252996" VDOP="1.100000" TDOP="1.700000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GALILEOSatTracked="5" GALILEOSatUsed="5" GLONASSSatTracked="7" GLONASSSatUsed="7" BEIDOUSatTracked="9" BEIDOUSatUsed="6"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="-0.037261" velocityY="0.016381" velocityZ="0.042459" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00116373" Qxy="-0.00019317" Qxz="-0.00025301" Qyy="0.00073098" Qyz="0.00087149" Qzz="0.00651302" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="0.54110966" tiltQuality="0.11928971" maxTilt="0.76586153" maxTiltQuality="0.11663888" tiltDirection="53.58957356" tiltDirectionQuality="14.47355857" heading="386.16969594" headingQuality="0.94043586">
+<AttitudeQuaternion w="-0.994098183844948" x="0.002470690291557" y="-0.003457880283054" z="-0.108400828546679">
+<QuaternionQuality Qxx="0.0000034401" Qxy="0.0000001585" Qxz="0.0000000365" Qyy="0.0000039551" Qyz="0.0000001016" Qzz="0.0002394352" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="0.3294442689" velocityY="-0.7685466219" velocityZ="1.5946241873" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000103" Qxy="0.0000000037" Qxz="-0.0000000002" Qyy="0.0000000030" Qyz="0.0000000003" Qzz="0.0000000012" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_22">
+<GPSPosition targetPntRef="PT_10" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="2.032240" PDOP="1.252996" VDOP="1.100000" TDOP="1.600000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GALILEOSatTracked="6" GALILEOSatUsed="5" GLONASSSatTracked="7" GLONASSSatUsed="7" BEIDOUSatTracked="9" BEIDOUSatUsed="6"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="-0.005322" velocityY="-0.001935" velocityZ="-0.000899" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00097924" Qxy="-0.00016789" Qxz="-0.00022314" Qyy="0.00061786" Qyz="0.00073751" Qzz="0.00543928" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="11.52777674" tiltQuality="0.11394275" maxTilt="11.68640051" maxTiltQuality="0.11351775" tiltDirection="91.41772152" tiltDirectionQuality="1.21416111" heading="281.30218122" headingQuality="0.93335280">
+<AttitudeQuaternion w="0.594608463170825" x="0.064617764792644" y="0.063241372954491" z="0.798915420270295">
+<QuaternionQuality Qxx="0.0000032340" Qxy="0.0000001670" Qxz="0.0000000402" Qyy="0.0000040062" Qyz="0.0000000136" Qzz="0.0002537884" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="0.0344728615" velocityY="0.2804856024" velocityZ="-0.0425434104" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000021" Qxy="-0.0000000001" Qxz="0.0000000000" Qyy="0.0000000009" Qyz="0.0000000000" Qzz="0.0000000010" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_24">
+<GPSPosition targetPntRef="PT_20" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="2.111871" PDOP="1.252996" VDOP="1.100000" TDOP="1.700000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GALILEOSatTracked="6" GALILEOSatUsed="6" GLONASSSatTracked="7" GLONASSSatUsed="6" BEIDOUSatTracked="8" BEIDOUSatUsed="6"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="-0.005533" velocityY="0.017399" velocityZ="-0.014051" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00171127" Qxy="-0.00030452" Qxz="-0.00041119" Qyy="0.00108549" Qyz="0.00129652" Qzz="0.00941612" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="20.94246119" tiltQuality="0.10727770" maxTilt="20.94245444" maxTiltQuality="0.10727770" tiltDirection="114.01887113" tiltDirectionQuality="0.93436213" heading="385.70863838" headingQuality="0.86211380">
+<AttitudeQuaternion w="-0.979034596543550" x="-0.055120505681666" y="-0.154184508166387" z="-0.121161570085962">
+<QuaternionQuality Qxx="0.0000027983" Qxy="-0.0000000249" Qxz="-0.0000000592" Qyy="0.0000038872" Qyz="0.0000002713" Qzz="0.0002023714" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="0.5340196815" velocityY="0.1591154676" velocityZ="0.7804581119" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000013" Qxy="-0.0000000011" Qxz="-0.0000000001" Qyy="0.0000000045" Qyz="0.0000000000" Qzz="0.0000000010" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_26">
+<GPSPosition targetPntRef="PT_30" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.700000" GDOP="2.700000" PDOP="1.565248" VDOP="1.400000" TDOP="2.200000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="6" GALILEOSatTracked="6" GALILEOSatUsed="6" GLONASSSatTracked="7" GLONASSSatUsed="6" BEIDOUSatTracked="8" BEIDOUSatUsed="4"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="-0.021437" velocityY="0.011301" velocityZ="0.079138" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00280062" Qxy="-0.00051707" Qxz="-0.00070899" Qyy="0.00178619" Qyz="0.00213357" Qzz="0.01525536" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="31.13299987" tiltQuality="0.10019954" maxTilt="31.13299006" maxTiltQuality="0.10019954" tiltDirection="133.66287101" tiltDirectionQuality="0.75555001" heading="395.44723623" headingQuality="0.91498022">
+<AttitudeQuaternion w="-0.968179257699235" x="-0.135529434970663" y="-0.200595888859325" z="-0.063419134259528">
+<QuaternionQuality Qxx="0.0000027071" Qxy="-0.0000005690" Qxz="-0.0000001743" Qyy="0.0000037516" Qyz="0.0000002701" Qzz="0.0002083354" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="0.2356736399" velocityY="0.0275009828" velocityZ="-0.0576309674" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000008" Qxy="-0.0000000001" Qxz="0.0000000000" Qyy="0.0000000015" Qyz="0.0000000000" Qzz="0.0000000009" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_28">
+<GPSPosition targetPntRef="PT_45" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="2.061553" PDOP="1.166190" VDOP="1.000000" TDOP="1.700000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="7" GALILEOSatTracked="6" GALILEOSatUsed="6" GLONASSSatTracked="6" GLONASSSatUsed="6" BEIDOUSatTracked="8" BEIDOUSatUsed="6"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="0.018735" velocityY="-0.014063" velocityZ="0.034640" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00249870" Qxy="-0.00017967" Qxz="-0.00019039" Qyy="0.00137461" Qyz="0.00127471" Qzz="0.01096194" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="45.80348954" tiltQuality="0.08711881" maxTilt="45.81863241" maxTiltQuality="0.08696173" tiltDirection="111.74009790" tiltDirectionQuality="0.86932618" heading="229.58248993" headingQuality="0.73145577">
+<AttitudeQuaternion w="0.254125832254600" x="0.350588651771429" y="0.031830630629487" z="0.900829878269881">
+<QuaternionQuality Qxx="0.0000019692" Qxy="-0.0000004737" Qxz="0.0000000287" Qyy="0.0000041773" Qyz="0.0000002033" Qzz="0.0001941834" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="-0.3074554995" velocityY="1.1390129221" velocityZ="0.3476367153" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000163" Qxy="0.0000000042" Qxz="0.0000000000" Qyy="0.0000000019" Qyz="0.0000000000" Qzz="0.0000000009" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_30">
+<GPSPosition targetPntRef="PT_72" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="2.459675" PDOP="1.431782" VDOP="1.300000" TDOP="2.000000"/>
+<SatelliteInfo GPSSatTracked="7" GPSSatUsed="7" GALILEOSatTracked="6" GALILEOSatUsed="5" GLONASSSatTracked="7" GLONASSSatUsed="7" BEIDOUSatTracked="9" BEIDOUSatUsed="3"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="-0.050445" velocityY="-0.014079" velocityZ="-0.098946" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00429477" Qxy="-0.00048337" Qxz="-0.00313438" Qyy="0.00244391" Qyz="0.00292568" Qzz="0.02547771" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="72.42989345" tiltQuality="0.07615332" maxTilt="72.88210728" maxTiltQuality="0.07787322" tiltDirection="131.25257671" tiltDirectionQuality="0.64607980" heading="246.81572014" headingQuality="0.56883722">
+<AttitudeQuaternion w="-0.413948549075014" x="-0.538535764407210" y="-0.012225012647316" z="-0.733809497239444">
+<QuaternionQuality Qxx="0.0000021372" Qxy="-0.0000012629" Qxz="0.0000000891" Qyy="0.0000036843" Qyz="0.0000001127" Qzz="0.0001564177" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="-1.5552764470" velocityY="2.2345164356" velocityZ="1.1288478703" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000491" Qxy="0.0000000336" Qxz="0.0000000001" Qyy="0.0000000243" Qyz="-0.0000000002" Qzz="0.0000000014" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_32">
+<GPSPosition targetPntRef="PT_test" tiltCompensated="true" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="1.849324" PDOP="1.081665" VDOP="0.900000" TDOP="1.500000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GALILEOSatTracked="7" GALILEOSatUsed="7" GLONASSSatTracked="5" GLONASSSatUsed="5" BEIDOUSatTracked="11" BEIDOUSatUsed="7"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="61"/>
+<GPSPositionVelocity velocityX="0.014013" velocityY="-0.011069" velocityZ="-0.016007" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00095921" Qxy="0.00017359" Qxz="0.00036273" Qyy="0.00057126" Qyz="-0.00041621" Qzz="0.00362213" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+<TiltInfo tilt="28.77997944" tiltQuality="0.10276745" maxTilt="28.87746334" maxTiltQuality="0.11719386" tiltDirection="66.84939669" tiltDirectionQuality="0.94543344" heading="301.32206971" headingQuality="1.15979166">
+<AttitudeQuaternion w="0.680525766196742" x="0.061303450545671" y="0.215570292071714" z="0.697607352075397">
+<QuaternionQuality Qxx="0.0000027487" Qxy="0.0000003628" Qxz="-0.0000001142" Qyy="0.0000034368" Qyz="0.0000004452" Qzz="0.0003312143" MeanError="63.6619772368"/>
+</AttitudeQuaternion>
+<AngularVelocity velocityX="0.7599761002" velocityY="0.8477551354" velocityZ="1.4963823129" AngularVelocityType="angularUnitPerSecond">
+<VelocityQuality Qxx="0.0000000179" Qxy="-0.0000000131" Qxz="0.0000000001" Qyy="0.0000000151" Qyz="0.0000000004" Qzz="0.0000000050" MeanError="63.6619772368"/>
+</AngularVelocity>
+<LeverArm deltaNorth="0.001000" deltaEast="0.000280" deltaUp="-2.099910"/>
+</TiltInfo>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_34">
+<GPSPosition targetPntRef="PT_test2" tiltCompensated="false" autoHeight="false" verticalOffset="0.000000">
+<GPSQuality HDOP="0.600000" GDOP="1.640122" PDOP="1.000000" VDOP="0.800000" TDOP="1.300000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GALILEOSatTracked="7" GALILEOSatUsed="7" GLONASSSatTracked="5" GLONASSSatUsed="5" BEIDOUSatTracked="12" BEIDOUSatUsed="7"/>
+<RTKInfo referenceRef="RTCM-Ref 0000" networkSolution="true" networkType="None" dataFormat="RTCM v3" ipAddress="caster.centipede.fr" port="2101" mountpoint="FORCA" insideRTKNetwork="Outside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="4"/>
+<GPSPositionVelocity velocityX="0.047027" velocityY="-0.004249" velocityZ="0.055497" linearVelocityUnit="linearUnitPerSecond">
+<VelocityQuality Qxx="0.00132908" Qxy="0.00020953" Qxz="0.00058592" Qyy="0.00061945" Qyz="-0.00007805" Qzz="0.00374336" MeanError="1.00000000"/>
+</GPSPositionVelocity>
+</GPSPosition>
+</GPSSetup>
+</Survey>
+<Codelist codelistName="Test_Imu" dataSourceRef="Test_Imu_0001_0616_063524">
+  <CodeGroup codeGroupName="Default" activatedOnInstrument="true">
+  </CodeGroup>
+</Codelist>
+<ApplicationResults>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T10:30:02.61" ApplicationEndDateTime="2024-07-01T10:30:02.61" ApplicationNumber="1"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T10:30:32.02" ApplicationEndDateTime="2024-07-01T10:30:32.02" ApplicationNumber="2"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T10:30:59.22" ApplicationEndDateTime="2024-07-01T10:30:59.22" ApplicationNumber="3"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T10:35:39.31" ApplicationEndDateTime="2024-07-01T10:35:39.31" ApplicationNumber="4"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T10:41:41.22" ApplicationEndDateTime="2024-07-01T10:41:41.22" ApplicationNumber="5"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T10:42:19.84" ApplicationEndDateTime="2024-07-01T10:42:19.84" ApplicationNumber="6"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T14:13:26.69" ApplicationEndDateTime="2024-07-01T14:13:26.69" ApplicationNumber="7"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T14:16:58.74" ApplicationEndDateTime="2024-07-01T14:16:58.74" ApplicationNumber="8"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T14:17:19.55" ApplicationEndDateTime="2024-07-01T14:17:19.55" ApplicationNumber="9"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T14:17:28.64" ApplicationEndDateTime="2024-07-01T14:17:28.64" ApplicationNumber="10"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T14:18:54.16" ApplicationEndDateTime="2024-07-01T14:18:54.16" ApplicationNumber="11"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T14:19:57.17" ApplicationEndDateTime="2024-07-01T14:19:57.17" ApplicationNumber="12"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="8.30.075" ApplicationStartDateTime="2024-07-01T14:20:43.21" ApplicationEndDateTime="2024-07-01T14:20:43.21" ApplicationNumber="13"/>
+</ApplicationResults>
+<Project>
+<DataSources>
+<DataSource uniqueID="Test_Imu_0001_0616_063524" name="Test_Imu" version="4.00.091"/>
+</DataSources>
+</Project>
+</HexagonLandXML>
+</LandXML>
