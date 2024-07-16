@@ -5,9 +5,9 @@
                 exclude-result-prefixes="l h">
 
 <!-- **************************************************************************************** -->
-<!-- (c) 2020, Leica Geosystems AG. All rights reserved. -->
-<!-- /version     : 1.0 -->
-<!-- /description : Online learning exercise 1 -->
+<!-- Stylesheet for ENSG-IGN - Leica GS18 -->
+<!-- /version     : 1.0 (16/07/2024) -->
+<!-- /author : Bruce Pourny mailto:bruce.pourny@ign.fr -->
 <!-- **************************************************************************************** -->
   
 
@@ -24,17 +24,17 @@
 	<xsl:variable name="fileExt" select="'csv'" />
 	<xsl:variable name="fileDesc" select="'Point Id, code, attribute &amp; coordinates with comma delimiter'" />
 
-	<!-- Declare the separator value -->
+	<!-- Declare a separator variable -->
 	<xsl:variable name="separator" select="','" />
 
-	<!-- Declare the line terminator value -->
+	<!-- Declare a line terminator variable -->
 	<xsl:variable name="lineTerminator" select="'&#13;&#10;'" />
 
 	<!-- Declare key for HexagonLandXML Point element -->
 	<xsl:key name="KeyPointH" match="h:Point" use="@uniqueID" />
 	
-	<!-- Declare key for HexagonLandXML Point element -->
-	<xsl:key name="KeySurveyH" match="h:GPSPosition" use="@targetPntRef" />
+	<!-- Declare key for HexagonLandXML GPSPosition element -->
+	<xsl:key name="KeyGPSPosH" match="h:GPSPosition" use="@targetPntRef" />
 
 
 	<!--
@@ -47,7 +47,7 @@
 	<xsl:template match="/">
 
 		<!-- Write the header line to the output file -->
-		<xsl:value-of select="concat('PointID,Est,Nord,HautEllip,Alti,Incli,IncliQual,IncliDirection,Direction', $lineTerminator)" />
+		<xsl:value-of select="concat('PointID,Est,Nord,HautEllip,Alti,CQ3D,CQPlan,CQHauteur,Incli,IncliQual,IncliDirection,Direction,RTKRefStation,GPSTracked,GPSUsed,GLONASSTracked,GLONASSUsed,GALILEOTracked,GALILEOUsed,BEIDOUTracked,BEIDOUUsed', $lineTerminator)" />
 		
 		<!-- Select each CgPoint element in turn -->
 		<xsl:for-each select="//l:CgPoint">
@@ -62,7 +62,7 @@
 			<xsl:variable name="PointH" select="key('KeyPointH', $CgPoint/@name)" />
 			
 			<!-- Match the CgPoint element with the previously defiend key -->
-			<xsl:variable name="SurveyH" select="key('KeySurveyH', $CgPoint/@name)" />
+			<xsl:variable name="GPSPosH" select="key('KeyGPSPosH', $CgPoint/@name)" />
 
 			<!-- Write the point ID to the output file -->
 		    <xsl:value-of select="concat($CgPoint/@name, $separator)" />
@@ -70,13 +70,27 @@
 			<!-- Write the coord attributes -->
 			<xsl:value-of select="concat($PointH/h:Coordinates/h:Local/h:Grid/@e, $separator, $PointH/h:Coordinates/h:Local/h:Grid/@n, $separator, $PointH/h:Coordinates/h:Local/h:Grid/@hghtE, $separator, $PointH/h:Coordinates/h:Local/h:Grid/@hghthO, $separator)" />
 			
+			<!-- Write the control of quality (CQ) values -->
+			<xsl:value-of select="concat($PointH/h:PointQuality/@CQ3D, $separator, $PointH/h:PointQuality/@CQPos, $separator, $PointH/h:PointQuality/@CQHeight, $separator)" />
+			
 			<!-- Write the tilt attributes -->
-			<xsl:value-of select="concat($SurveyH/h:TiltInfo/@tilt, $separator, $SurveyH/h:TiltInfo/@tiltQuality, $separator, $SurveyH/h:TiltInfo/@tiltDirection, $separator, $SurveyH/h:TiltInfo/@heading, $lineTerminator)" />
+			<xsl:value-of select="concat($GPSPosH/h:TiltInfo/@tilt, $separator, $GPSPosH/h:TiltInfo/@tiltQuality, $separator, $GPSPosH/h:TiltInfo/@tiltDirection, $separator, $GPSPosH/h:TiltInfo/@heading, $separator)" />
 			
+			<!-- Write the RTK Reference station -->
+			<xsl:value-of select="concat($GPSPosH/h:RTKInfo/@mountpoint, $separator)" />
 			
+			<!-- Write the GPS tracked/used station -->
+			<xsl:value-of select="concat($GPSPosH/h:SatelliteInfo/@GPSSatTracked, $separator, $GPSPosH/h:SatelliteInfo/@GPSSatUsed, $separator)" />
 			
-
-
+			<!-- Write the GLONASS tracked/used station -->
+			<xsl:value-of select="concat($GPSPosH/h:SatelliteInfo/@GLONASSSatTracked, $separator, $GPSPosH/h:SatelliteInfo/@GLONASSSatUsed, $separator)" />
+			
+			<!-- Write the GALILEO tracked/used station -->
+			<xsl:value-of select="concat($GPSPosH/h:SatelliteInfo/@GALILEOSatTracked, $separator, $GPSPosH/h:SatelliteInfo/@GALILEOSatUsed, $separator)" />
+			
+			<!-- Write the BEIDOU tracked/used station -->
+			<xsl:value-of select="concat($GPSPosH/h:SatelliteInfo/@BEIDOUSatTracked, $separator, $GPSPosH/h:SatelliteInfo/@BEIDOUSatUsed, $lineTerminator)" />
+			
 		<!-- End of "loop" for the CgPoint elements -->	
       	</xsl:for-each>
 
